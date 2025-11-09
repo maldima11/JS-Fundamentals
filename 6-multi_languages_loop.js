@@ -9,13 +9,22 @@
 // You can use only one console.log
 // You must use a loop (while, for, etc.)
 
-// solution
+// solution :: did not work
 
-const sentences = ['C is fun', 'Python is cool' , 'JavaScript is amazing'];
+// const sentences = ['C is fun', 'Python is cool' , 'JavaScript is amazing'];
 
-for(let i = 0; i < sentences.length; i++) {
-    while(i < sentences.length) {
-    console.log(sentences[i]);
-    i++;
-}
+// for(let i = 0; i < sentences.length; i++) {
+//     while(i < sentences.length) {
+//     console.log(sentences[i]);
+//     i++;
+// }
+// }
+
+// second solution
+// Array of strings
+const lines = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+
+// Loop through and print each line
+for (const line of lines) {
+  console.log(line);
 }
